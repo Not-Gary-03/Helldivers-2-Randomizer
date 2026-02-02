@@ -312,6 +312,55 @@ def priority_list_weights(col: Collection) -> str:
 # read all equipment from a single data file
 equipment_items = read_items_from_csv("data\\all_equipment.txt")
 
+# Initialize collections from the single equipment source so the module can be imported and used
+# by other code without needing to run the interactive main loop.
+equipment_col = Collection("everything",["everything_col"],1,equipment_items)
+
+# derive type-specific collections as views onto equipment_col (share Item objects)
+stratagem_col = equipment_col.aggregate_or(["stratagem"], recursive=True)
+stratagem_col.name = "stratagems"
+stratagem_col.tags = ["stratagems_col"]
+stratagem_col.refresh_weight()
+
+armor_col = equipment_col.aggregate_or(["armor"], recursive=True)
+armor_col.name = "armor"
+armor_col.tags = ["armor_col"]
+armor_col.refresh_weight()
+
+primary_col = equipment_col.aggregate_or(["primary"], recursive=True)
+primary_col.name = "primary"
+primary_col.tags = ["primary_col"]
+primary_col.refresh_weight()
+
+secondary_col = equipment_col.aggregate_or(["secondary"], recursive=True)
+secondary_col.name = "secondary"
+secondary_col.tags = ["secondary_col"]
+secondary_col.refresh_weight()
+
+throwable_col = equipment_col.aggregate_or(["throwable"], recursive=True)
+throwable_col.name = "throwable"
+throwable_col.tags = ["throwable_col"]
+throwable_col.refresh_weight()
+
+booster_col = equipment_col.aggregate_or(["booster"], recursive=True)
+booster_col.name = "booster"
+booster_col.tags = ["booster_col"]
+booster_col.refresh_weight()
+
+all_stratagems = create_col_list_or("Stratagems",stratagem_col, STRAT_TITLES)
+all_armor = create_col_list_or("Armor",armor_col,ACQUISITIONS)
+all_primaries = create_col_list_or("Primaries",primary_col,ACQUISITIONS)
+all_secondaries = create_col_list_or("Secondaries",secondary_col,ACQUISITIONS)
+all_throwables = create_col_list_or("Throwables",throwable_col,ACQUISITIONS)
+all_boosters = create_col_list_or("Boosters",booster_col,ACQUISITIONS)
+
+base_stratagem_names = ["Patriotic Administration Center","Hangar","Bridge",\
+                        "Robotics Workshop","Engineering Bay","Orbital Cannons"]
+base_content_unlocked = ["starting equipment","Helldivers Mobilize","killzone cross over"]
+
+content = [all_stratagems,all_armor,all_primaries,all_secondaries,all_throwables,\
+           all_boosters]
+
 if __name__ == "__main__":
     #region Collection initialization
     # Use single equipment collection as parent and derive other collections from it
