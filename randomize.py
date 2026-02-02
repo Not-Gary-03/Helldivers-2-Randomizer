@@ -1,4 +1,4 @@
-"""Helldivers Equipment Randomizer Classes
+"""Helldivers Equipment Randomizer
 Gary Hayden May, 2025/01/10, Personal Project
 
 ////2025-12-13 PLANS FOR EXPANSION////
