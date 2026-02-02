@@ -212,24 +212,6 @@ def rand_equipment(base_col: Collection, player_tag_item: Item, destructive=Fals
 
     return f"[{selected_item.name}]"
 
-"""DEPRECATED def rand_loadout(diver: Collection,content: list,ds=False) -> str:
-    ""randomly create full loadout for single diver
-    diver: Item object representing the diver, their name, and tags indicating the content they own
-    content: list of Collection objects representing all of the equipment in the game
-    ds: boolean indicating if destructive selection is enabled
-    ""
-    output = f"{diver.name}'s Stratagems: "
-    output += f"{rand_equipment(content[0],diver,ds)} "
-    output += f"{rand_equipment(content[0],diver,ds)} "
-    output += f"{rand_equipment(content[0],diver,ds)} "
-    output += f"{rand_equipment(content[0],diver,ds)}\n"
-    output += f"{diver.name}'s Armor: {rand_equipment(content[1],diver,ds)} "
-    output += f"Primary: {rand_equipment(content[2],diver,ds)} "
-    output += f"Secondary: {rand_equipment(content[3],diver,ds)}\n"
-    output += f"{diver.name}'s Throwable: {rand_equipment(content[4],diver,ds)} "
-    output += f"Booster: {rand_equipment(content[5],diver,ds)}\n\n\n"
-    return output"""
-
 def team_loadouts(divers: list[Collection],content: list,ds=False) -> str:
     """randomly create full loadout for each diver
     divers: list of Item objects representing the divers, their names, and tags indicating the content they own
@@ -327,25 +309,44 @@ def priority_list_weights(col: Collection) -> str:
 
 #endregion
 
-#region categories read from text files
-STRATAGEMS = read_items_from_csv("data\\stratagems.txt")
-ARMOR = read_items_from_csv("data\\armor.txt")
-PRIMARY = read_items_from_csv("data\\primary.txt")
-SECONDARY = read_items_from_csv("data\\secondary.txt")
-THROWABLE = read_items_from_csv("data\\throwable.txt")
-BOOSTER = read_items_from_csv("data\\boosters.txt")
-
-#endregion
+# read all equipment from a single data file
+equipment_items = read_items_from_csv("data\\all_equipment.txt")
 
 if __name__ == "__main__":
     #region Collection initialization
-    stratagem_col = Collection("stratagems",["stratagems_col"],1,STRATAGEMS)
-    armor_col = Collection("armor",["armor_col"],1,ARMOR)
-    primary_col = Collection("primary",["primary_col"],1,PRIMARY)
-    secondary_col = Collection("secondary",["secondary_col"],1,SECONDARY)
-    throwable_col = Collection("throwable",["throwable_col"],1,THROWABLE)
-    booster_col = Collection("booster",["booster_col"],1,BOOSTER)
-    equipment_col = Collection("everything",["everything_col"],1,read_items_from_csv("data\\all_equipment.txt"))
+    # Use single equipment collection as parent and derive other collections from it
+    equipment_col = Collection("everything",["everything_col"],1,equipment_items)
+
+    # derive type-specific collections as views onto equipment_col (share Item objects)
+    stratagem_col = equipment_col.aggregate_or(["stratagem"], recursive=True)
+    stratagem_col.name = "stratagems"
+    stratagem_col.tags = ["stratagems_col"]
+    stratagem_col.refresh_weight()
+
+    armor_col = equipment_col.aggregate_or(["armor"], recursive=True)
+    armor_col.name = "armor"
+    armor_col.tags = ["armor_col"]
+    armor_col.refresh_weight()
+
+    primary_col = equipment_col.aggregate_or(["primary"], recursive=True)
+    primary_col.name = "primary"
+    primary_col.tags = ["primary_col"]
+    primary_col.refresh_weight()
+
+    secondary_col = equipment_col.aggregate_or(["secondary"], recursive=True)
+    secondary_col.name = "secondary"
+    secondary_col.tags = ["secondary_col"]
+    secondary_col.refresh_weight()
+
+    throwable_col = equipment_col.aggregate_or(["throwable"], recursive=True)
+    throwable_col.name = "throwable"
+    throwable_col.tags = ["throwable_col"]
+    throwable_col.refresh_weight()
+
+    booster_col = equipment_col.aggregate_or(["booster"], recursive=True)
+    booster_col.name = "booster"
+    booster_col.tags = ["booster_col"]
+    booster_col.refresh_weight()
 
     all_stratagems = create_col_list_or("Stratagems",stratagem_col, STRAT_TITLES)
     all_armor = create_col_list_or("Armor",armor_col,ACQUISITIONS)
