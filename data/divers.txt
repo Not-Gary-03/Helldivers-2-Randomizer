@@ -1,0 +1,3 @@
+name,tags,weight
+
+"Example",["Obedience Democracy Support Troopers","Dust Devils","Democratic Detonation","Steeled Veterans"],1

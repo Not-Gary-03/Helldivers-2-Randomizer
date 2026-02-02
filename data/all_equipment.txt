@@ -1,0 +1,4 @@
+name,tags,weight
+
+"SC-37 Legionnaire",["armor","Superstore","light","servo-assisted"],1
+"SC-34 Infiltrator",["armor","Helldivers Mobilize","light","scout"],1

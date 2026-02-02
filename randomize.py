@@ -334,7 +334,6 @@ PRIMARY = read_items_from_csv("data\\primary.txt")
 SECONDARY = read_items_from_csv("data\\secondary.txt")
 THROWABLE = read_items_from_csv("data\\throwable.txt")
 BOOSTER = read_items_from_csv("data\\boosters.txt")
-EVERYTHING = read_items_from_csv("data\\everything.txt")
 
 #endregion
 
@@ -346,7 +345,7 @@ if __name__ == "__main__":
     secondary_col = Collection("secondary",["secondary_col"],1,SECONDARY)
     throwable_col = Collection("throwable",["throwable_col"],1,THROWABLE)
     booster_col = Collection("booster",["booster_col"],1,BOOSTER)
-    everything_col = Collection("everything",["everything_col"],1,read_items_from_csv("data\\everything.txt"))
+    equipment_col = Collection("everything",["everything_col"],1,read_items_from_csv("data\\all_equipment.txt"))
 
     all_stratagems = create_col_list_or("Stratagems",stratagem_col, STRAT_TITLES)
     all_armor = create_col_list_or("Armor",armor_col,ACQUISITIONS)
