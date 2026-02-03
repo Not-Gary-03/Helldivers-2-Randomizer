@@ -2,3 +2,104 @@ name,tags,weight
 
 "SC-37 Legionnaire",["armor","Superstore","light","servo-assisted"],1
 "SC-34 Infiltrator",["armor","Helldivers Mobilize","light","scout"],1
+"SC-30 Trailblazer Scout",["armor","Helldivers Mobilize","light","scout"],1
+"CE-74 Breaker",["armor","Superstore","light","engineering kit"],1
+"FS-38 Eradicator",["armor","Superstore","light","fortified"],1
+"B-08 Light Gunner",["armor","Superstore","light","extra padding"],1
+"CM-21 Trench Paramedic",["armor","Superstore","light","med-kit"],1
+"EX-00 Prototype X",["armor","Cutting Edge","light","electrical conduit"],1
+"CE-07 Demolition Specialist",["armor","Democratic Detonation","light","engineering kit"],1
+"FS-37 Ravager",["armor","Superstore","light","engineering kit"],1
+"CW-4 Arctic Ranger",["armor","Polar Patriots","light","scout"],1
+"PH-9 Predator",["armor","Viper Commandos","light","peak physique"],1
+"I-09 Heatseeker",["armor","Freedom's Flame","light","inflammable"],1
+"AF-50 Noxious Ranger",["armor","Chemical Agents","light","advanced filtration"],1
+"UF-16 Inspector",["armor","Truth Enforcers","light","unflinching"],1
+"SR-24 Street Scout",["armor","Urban Legends","light","siege-ready"],1
+"AC-2 Obedient",["armor","Righteous Revenants","Killzone Collab Free","light","acclimated"],1
+"IE-57 Hell-Bent",["armor","Superstore","light","integrated explosives"],1
+"GS-11 Democracy's Deputy",["armor","Superstore","light","gunslinger"],1
+"RE-1861 Parade Commander",["armor","Masters of Ceremony","light","reinforced epaulettes"],1
+"BP-32 Jackboot",["armor","Force of Law","light","ballistic padding"],1
+"AD-11 Livewire",["armor","Superstore","light","adreno-defibrillator"],1
+"DS-10 Big Game Hunter",["armor","Superstore","light","desert stormer"],1
+"RS-20 Constrictor",["armor","Superstore","light","rock solid"],1
+"RS-100 Sanctioner",["armor","Superstore","light","reduced signature"],1
+"RS-89 Shadow Paragon",["armor","Redacted Regiment","light","reduced signature"],1
+
+"B-01 Tactical",["armor","Starter Equipment","medium","extra padding"],1
+"B-01 Tactical",["armor","Starter Equipment","medium","extra padding"],1
+"B-01 Tactical",["armor","Starter Equipment","medium","extra padding"],1
+"B-01 Tactical",["armor","Starter Equipment","medium","extra padding"],1
+"TR-7 Ambassador of the Brand",["armor","Pre-Order","medium","extra padding"],1
+"TR-9 Cavalier of Democracy",["armor","Pre-Order","medium","democracy protects"],1
+"DP-53 Savior of the Free",["armor","Super Citizen Edition","medium","democracy protects"],1
+"TR-117 Alpha Commander",["armor","Starter Equipment","medium","med-kit"],1
+"SC-15 Drone Master",["armor","Superstore","medium","engineering kit"],1
+"CE-35 Trench Engineer",["armor","Helldivers Mobilize","medium","engineering kit"],1
+"CM-09 Bonesnapper",["armor","Helldivers Mobilize","medium","med-kit"],1
+"DP-40 Hero of the Federation",["armor","Helldivers Mobilize","medium","democracy protects"],1
+"SA-7 Headfirst",["armor","Siege Breakers","medium","supplementary adrenaline"],1
+"SA-04 Combat Technician",["armor","Helldivers Mobilize","medium","scout"],1
+"CM-14 Physician",["armor","Helldivers Mobilize","medium","med-kit"],1
+"DP-11 Champion of the People",["armor","Helldivers Mobilize","medium","democracy protects"],1
+"SA-25 Steel Trooper",["armor","Steeled Veterans","medium","servo-assisted"],1
+"SA-12 Servo Assisted",["armor","Steeled Veterans","medium","servo-assisted"],1
+"B-24 Enforcer",["armor","Superstore","medium","fortified"],1
+"CE-81 Juggernaut",["armor","Superstore","medium","engineering kit"],1
+"FS-34 Exterminator",["armor","Superstore","medium","fortified"],1
+"EX-03 Prototype 3",["armor","Cutting Edge","medium","electrical conduit"],1
+"EX-16 Prototype 16",["armor","Cutting Edge","medium","electrical conduit"],1
+"CE-27 Ground Breaker",["armor","Democratic Detonation","medium","engineering kit"],1
+"CM-10 Clinician",["armor","Superstore","medium","med-kit"],1
+"CW-9 White Wolf",["armor","Superstore","medium","extra padding"],1
+"PH-56 Jaguar",["armor","Superstore","medium","peak physique"],1
+"TR-40 Gold Eagle",["armor","Starting Equipment","medium","extra padding"],1
+"I-92 Fire Fighter",["armor","Superstore","medium","inflammable"],1
+"I-102 Draconaught",["armor","Freedom's Flame","medium","inflammable"],1
+"AF-91 Field Chemist",["armor","Superstore","medium","advanced filtration"],1
+"AF-02 Haz-Master",["armor","Chemical Agents","medium","advanced filtration"],1
+"DP-00 Tactical",["armor","Starting Equipment","medium","democracy protects"],1
+"UF-84 Doubt Killer",["armor","Superstore","medium","unflinching"],1
+"UF-50 Bloodhound",["armor","Truth Enforcers","medium","unflinching"],1
+"AC-1 Dutiful",["armor","Righteous Revenants","medium","acclimated"],1
+"IE-3 Martyr",["armor","Servants of Freedom","medium","integrated explosives"],1
+"IE-12 Righteous",["armor","Servants of Freedom","medium","integrated explosives"],1
+"B-22 Model Citizen",["armor","Starting Equipment","medium","democracy protects"],1
+"GS-17 Frontier Marshal",["armor","Borderline Justice","medium","gunslinger"],1
+"RE-2310 Honorary Guard",["armor","Masters of Ceremony","medium","reinforced epaulettes"],1
+"BP-20 Correct Officer",["armor","Force of Law","medium","ballistic padding"],1
+"AD-26 Bleeding Edge",["armor","Control Group","medium","adreno-defibrillator"],1
+"A-9 Helljumper",["armor","Obedient Democracy Support Troopers","medium","feet first"],1
+"A-35 Recon",["armor","Obedient Democracy Support Troopers","medium","feet first"],1
+"DS-191 Scorpion",["armor","Dust Devils","medium","desert stormer"],1
+"RS-6 Fiend Destroyer",["armor","Superstore","medium","rock solid"],1
+"RS-67 Null Cipher",["armor","Redacted Regiment","medium","reduced signature"],1
+
+"TR-62 Knight",["armor","Pre-Order","heavy","servo-assisted"],1
+"FS-05 Marksman",["armor","Helldivers Mobilize","heavy","fortified"],1
+"SA-08 Ram",["armor","Siege Breakers","heavy","supplementary adrenaline"],1
+"FS-23 Battle Master",["armor","Helldivers Mobilize","heavy","fortified"],1
+"SA-32 Dynamo",["armor","Steeled Veterans","heavy","servo-assisted"],1
+"B-27 Fortified Commando",["armor","Superstore","heavy","extra padding"],1
+"FS-61 Dreadnought",["armor","Superstore","heavy","servo-assisted"],1
+"FS-11 Executioner",["armor","Superstore","heavy","fortified"],1
+"CM-17 Butcher",["armor","Superstore","heavy","med-kit"],1
+"FS-44 Devastator",["armor","Democratic Detonation","heavy","fortified"],1
+"CE-64 Grenadier",["armor","Superstore","heavy","engineering kit"],1
+"CW-36 Winter Warrior",["armor","Polar Patriots","heavy","servo-assisted"],1
+"CW-22 Kodiak",["armor","Polar Patriots","heavy","fortified"],1
+"CE-101 Guerilla Gorilla",["armor","Superstore","heavy","engineering kit"],1
+"PH-202 Twigsnapper",["armor","Viper Commandos","heavy","peak physique"],1
+"I-44 Salamander",["armor","Superstore","heavy","inflammable"],1
+"AF-52 Lockdown",["armor","Superstore","heavy","advanced filtration"],1
+"SR-64 Cinderblock",["armor","Superstore","heavy","siege-ready"],1
+"SR-18 Roadblock",["armor","Urban Legends","heavy","siege-ready"],1
+"GS-66 Lawmaker",["armor","Borderline Justice","heavy","gunslinger"],1
+"RE-824 Bearer of the Standard",["armor","Superstore","heavy","reinforced epaulettes"],1
+"BP-77 Grand Juror",["armor","Superstore","heavy","ballistic padding"],1
+"AD-49 Apollonian",["armor","Control Group","heavy","adreno-defibrillator"],1
+"DS-42 Federation's Blade",["armor","Dust Devils","heavy","desert stormer"],1
+"RS-40 Beast of Prey",["armor","Python Commandos","heavy","rock solid"],1
+
+
