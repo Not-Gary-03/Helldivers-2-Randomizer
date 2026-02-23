@@ -1,3 +1,3 @@
 name,tags,weight
 
-"Example",["Obedience Democracy Support Troopers","Dust Devils","Democratic Detonation","Steeled Veterans"],1
+"Allmight","['Steeled Veterans','Cutting Edge','Democratic Detonation','Polar Patriots','Viper Commandos','Freedoms Flame','Chemical Agents','Truth Enforcers','Urban Legends','Servants of Freedom','Borderline Justice','Masters of Ceremony','Dust Devils','Obedient Democracy Support Troopers','Control Group','Force of Law','Python Commandos']",1
