@@ -89,6 +89,7 @@ potential example of menu:
 import random
 import csv
 import pyperclip
+import ast
 
 from item import Item
 from collection import Collection
@@ -113,13 +114,22 @@ STRAT_TITLES = ["Patriotic Administration Center","Hangar","Bridge",\
 #region function definitions
 
 def read_items_from_csv(filename) -> list:
-    # reads from text file and returns list of Item objects
+    """reads from text file and returns list of Item objects"""
     items = []
     with open(filename, mode='r') as file:
         reader = csv.DictReader(file)
         for row in reader:
             name = row['name']
-            tags = row['tags'].split(',')
+            tags_field = row['tags']
+            # Remove surrounding quotes if present
+            if tags_field.startswith('"') and tags_field.endswith('"'):
+                tags_field = tags_field[1:-1]
+            try:
+                tags = ast.literal_eval(tags_field)
+                if not isinstance(tags, list):
+                    tags = []
+            except Exception:
+                tags = []
             items.append(Item(name, tags))
     return items
 
@@ -200,10 +210,15 @@ def rand_equipment(base_col: Collection, player_tag_item: Item, destructive=Fals
     """
 
     # Get viable collections that contain at least one of the tag_item's tags
+    print(f"[DEBUG] rand_equipment: Searching for tags {player_tag_item.tags} in base_col '{base_col.name}' with {len(base_col.items)} items.")
     viables = base_col.aggregate_or(player_tag_item.tags, recursive=True)
+    print(f"[DEBUG] rand_equipment: Found {len(viables.items)} viable items: {[item.name for item in viables.items]}")
 
     if DEBUG:
         print(viables)
+
+    if not viables.items:
+        raise ValueError(f"No viable items found for diver '{player_tag_item.name}' with tags {player_tag_item.tags} in collection '{base_col.name}'")
 
     # Randomly select an item from viables
     selected_item = viables.rand_select_item()
@@ -347,6 +362,8 @@ booster_col.name = "booster"
 booster_col.tags = ["booster_col"]
 booster_col.refresh_weight()
 
+
+# Keep all_* collections for other uses, but use flat collections for randomization
 all_stratagems = create_col_list_or("Stratagems",stratagem_col, STRAT_TITLES)
 all_armor = create_col_list_or("Armor",armor_col,ACQUISITIONS)
 all_primaries = create_col_list_or("Primaries",primary_col,ACQUISITIONS)
@@ -358,8 +375,8 @@ base_stratagem_names = ["Patriotic Administration Center","Hangar","Bridge",\
                         "Robotics Workshop","Engineering Bay","Orbital Cannons"]
 base_content_unlocked = ["starting equipment","Helldivers Mobilize","killzone cross over"]
 
-content = [all_stratagems,all_armor,all_primaries,all_secondaries,all_throwables,\
-           all_boosters]
+# Use flat collections for randomization
+content = [stratagem_col, armor_col, primary_col, secondary_col, throwable_col, booster_col]
 
 if __name__ == "__main__":
     #region Collection initialization
@@ -397,6 +414,15 @@ if __name__ == "__main__":
     booster_col.tags = ["booster_col"]
     booster_col.refresh_weight()
 
+    if DEBUG:
+        print(f"equipment_col:\n{equipment_col}\n")
+        print(f"stratagem_col:\n{stratagem_col}\n")
+        print(f"armor_col:\n{armor_col}\n")
+        print(f"primary_col:\n{primary_col}\n")
+        print(f"secondary_col:\n{secondary_col}\n")
+        print(f"throwable_col:\n{throwable_col}\n")
+        print(f"booster_col:\n{booster_col}\n")
+
     all_stratagems = create_col_list_or("Stratagems",stratagem_col, STRAT_TITLES)
     all_armor = create_col_list_or("Armor",armor_col,ACQUISITIONS)
     all_primaries = create_col_list_or("Primaries",primary_col,ACQUISITIONS)
@@ -408,8 +434,10 @@ if __name__ == "__main__":
                             "Robotics Workshop","Engineering Bay","Orbital Cannons"]
     base_content_unlocked = ["starting equipment","Helldivers Mobilize","killzone cross over"]
 
-    content = [all_stratagems,all_armor,all_primaries,all_secondaries,all_throwables,\
-               all_boosters]
+    #content = [all_stratagems,all_armor,all_primaries,all_secondaries,all_throwables,\
+    #           all_boosters]
+    content = [stratagem_col,armor_col,primary_col,secondary_col,throwable_col,\
+               booster_col]
     
     #endregion
 

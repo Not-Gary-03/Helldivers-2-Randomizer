@@ -1,322 +1,321 @@
 name,tags,weight
 
+"MG-43 Machine Gun","['stratagem','Patriotic Administration Center','blue','support weapon']",1
+"APW-1 Anti-Materiel Rifle","['stratagem','Patriotic Adminstration Center','blue','support weapon']",1
+"M-105 Stalwart","['stratagem','Patriotic Adminstration Center','blue','support weapon']",1
+"EAT-17 Expendable Anti-Tank","['stratagem','Patriotic Adminstration Center','blue','support weapon']",1
+"GR-8 Recoilless Rifle","['stratagem','Patriotic Adminstration Center','blue','support weapon']",1
+"FLAM-40 Flamethrower","['stratagem','Patriotic Adminstration Center','blue','support weapon']",1
+"AC-8 Autocannon","['stratagem','Patriotic Adminstration Center','blue','support weapon']",1
+"MG-206 Heavy Machine Gun","['stratagem','Patriotic Adminstration Center','blue','support weapon']",1
+"RL-77 Airburst Rocket Launcher","['stratagem','Patriotic Adminstration Center','blue','support weapon']",1
+"MLS-4X Commando","['stratagem','Patriotic Adminstration Center','blue','support weapon']",1
+"RS-422 Railgun","['stratagem','Patriotic Adminstration Center','blue','support weapon']",1
+"FAF-14 Spear","['stratagem','Patriotic Adminstration Center','blue','support weapon']",1
+"StA-X3 W.A.S.P. Launcher","['stratagem','Patriotic Adminstration Center','blue','support weapon']",1
 
-"MG-43 Machine Gun",["stratagem","Patriotic Administration Center","blue","support weapon"],1
-"APW-1 Anti-Materiel Rifle",["stratagem","Patriotic Adminstration Center","blue","support weapon"],1
-"M-105 Stalwart",["stratagem","Patriotic Adminstration Center","blue","support weapon"],1
-"EAT-17 Expendable Anti-Tank",["stratagem","Patriotic Adminstration Center","blue","support weapon"],1
-"GR-8 Recoilless Rifle",["stratagem","Patriotic Adminstration Center","blue","support weapon"],1
-"FLAM-40 Flamethrower",["stratagem","Patriotic Adminstration Center","blue","support weapon"],1
-"AC-8 Autocannon",["stratagem","Patriotic Adminstration Center","blue","support weapon"],1
-"MG-206 Heavy Machine Gun",["stratagem","Patriotic Adminstration Center","blue","support weapon"],1
-"RL-77 Airburst Rocket Launcher",["stratagem","Patriotic Adminstration Center","blue","support weapon"],1
-"MLS-4X Commando",["stratagem","Patriotic Adminstration Center","blue","support weapon"],1
-"RS-422 Railgun",["stratagem","Patriotic Adminstration Center","blue","support weapon"],1
-"FAF-14 Spear",["stratagem","Patriotic Adminstration Center","blue","support weapon"],1
-"StA-X3 W.A.S.P. Launcher",["stratagem","Patriotic Adminstration Center","blue","support weapon"],1
+"Orbital Gatling Barrage","['stratagem','Orbital Cannons','red','barrage']",1
+"Orbital Airburst Strike","['stratagem','Orbital Cannons','red','barrage']",1
+"Orbital 120mm HE Barrage","['stratagem','Orbital Cannons','red','barrage']",1
+"Orbital 380mm HE Barrage","['stratagem','Orbital Cannons','red','barrage']",1
+"Orbital Walking Barrage","['stratagem','Orbital Cannons','red','barrage']",1
+"Orbital Laser","['stratagem','Orbital Cannons','red','barrage']",1
+"Orbital Napalm Barrage","['stratagem','Orbital Cannons','red','barrage']",1
+"Orbital Railcannon Strike","['stratagem','Orbital Cannons','red','strike','targeting']",1
 
-"Orbital Gatling Barrage",["stratagem","Orbital Cannons","red","barrage"],1
-"Orbital Airburst Strike",["stratagem","Orbital Cannons","red","barrage"],1
-"Orbital 120mm HE Barrage",["stratagem","Orbital Cannons","red","barrage"],1
-"Orbital 380mm HE Barrage",["stratagem","Orbital Cannons","red","barrage"],1
-"Orbital Walking Barrage",["stratagem","Orbital Cannons","red","barrage"],1
-"Orbital Laser",["stratagem","Orbital Cannons","red","barrage"],1
-"Orbital Napalm Barrage",["stratagem","Orbital Cannons","red","barrage"],1
-"Orbital Railcannon Strike",["stratagem","Orbital Cannons","red","strike","targeting"],1
+"Eagle Strafing Run","['stratagem','Hangar','red','eagle']",1
+"Eagle Airstrike","['stratagem','Hangar','red','eagle']",1
+"Eagle Cluster Bomb","['stratagem','Hangar','red','eagle']",1
+"Eagle Napalm Airstrike","['stratagem','Hangar','red','eagle']",1
+"LIFT-850 Jump Pack","['stratagem','Hangar','blue','backpack','back']",1
+"Eagle Smoke Strike","['stratagem','Hangar','red','eagle']",1
+"Eagle 110mm Rocket Pods","['stratagem','Hangar','red','eagle','targeting']",1
+"Eagle 500kg Bomb","['stratagem','Hangar','red','eagle']",1
+"M-102 Fast Recon Vehicle","['stratagem','Hangar','blue','vehicle']",1
+"TD-220 Bastion","['stratagem','Hangar','blue','vehicle']",1
 
-"Eagle Strafing Run",["stratagem","Hangar","red","eagle"],1
-"Eagle Airstrike",["stratagem","Hangar","red","eagle"],1
-"Eagle Cluster Bomb",["stratagem","Hangar","red","eagle"],1
-"Eagle Napalm Airstrike",["stratagem","Hangar","red","eagle"],1
-"LIFT-850 Jump Pack",["stratagem","Hangar","blue","backpack","back"],1
-"Eagle Smoke Strike",["stratagem","Hangar","red","eagle"],1
-"Eagle 110mm Rocket Pods",["stratagem","Hangar","red","eagle","targeting"],1
-"Eagle 500kg Bomb",["stratagem","Hangar","red","eagle"],1
-"M-102 Fast Recon Vehicle",["stratagem","Hangar","blue","vehicle"],1
-"TD-220 Bastion",["stratagem","Hangar","blue","vehicle"],1
+"Orbital Precision Strike","['stratagem','Bridge','red','strike']",1
+"Orbital Gas Strike","['stratagem','Bridge','red','strike']",1
+"Orbital EMS Strike","['stratagem','Bridge','red','strike']",1
+"Orbital Smoke Strike","['stratagem','Bridge','red','strike']",1
+"E/MG-101 HMG Emplacement","['stratagem','Bridge','green','emplacement']",1
+"FX-12 Shield Generator Relay","['stratagem','Bridge','green','emplacement']",1
+"A/ARC-3 Tesla Tower","['stratagem','Bridge','green','sentry']",1
+"E/GL-21 Grenadier Battlement","['stratagem','Bridge','green','emplacement']",1
 
-"Orbital Precision Strike",["stratagem","Bridge","red","strike"],1
-"Orbital Gas Strike",["stratagem","Bridge","red","strike"],1
-"Orbital EMS Strike",["stratagem","Bridge","red","strike"],1
-"Orbital Smoke Strike",["stratagem","Bridge","red","strike"],1
-"E/MG-101 HMG Emplacement",["stratagem","Bridge","green","emplacement"],1
-"FX-12 Shield Generator Relay",["stratagem","Bridge","green","emplacement"],1
-"A/ARC-3 Tesla Tower",["stratagem","Bridge","green","sentry"],1
-"E/GL-21 Grenadier Battlement",["stratagem","Bridge","green","emplacement"],1
+"MD-6 Anti-Personnel Minefield","['stratagem','Engineering Bay','green','mines']",1
+"B-1 Supply Pack","['stratagem','Engineering Bay','blue','backpack','back']",1
+"GL-21 Grenade Launcher","['stratagem','Engineering Bay','blue','support weapon']",1
+"LAS-98 Laser Cannon","['stratagem','Engineering Bay','blue','support weapon']",1
+"MD-14 Incendiary Mines","['stratagem','Engineering Bay','green','mines']",1
+"AX/LAS-5 'Guard Dog' Rover","['stratagem','Engineering Bay','blue','backpack','back','guard dog']",1
+"SH-20 Ballistic Shield Backpack","['stratagem','Engineering Bay','blue','backpack','back']",1
+"ARC-3 Arc Thrower","['stratagem','Engineering Bay','blue','support weapon']",1
+"MD-17 Anti-Tank Mines","['stratagem','Engineering Bay','green','mines']",1
+"LAS-99 Quasar Cannon","['stratagem','Engineering Bay','blue','support weapon']",1
+"SH-32 Shield Generator Pack","['stratagem','Engineering Bay','blue','backpack','back']",1
+"MD-8 Gas Mines","['stratagem','Engineering Bay','green','mines']",1
 
-"MD-6 Anti-Personnel Minefield",["stratagem","Engineering Bay","green","mines"],1
-"B-1 Supply Pack",["stratagem","Engineering Bay","blue","backpack","back"],1
-"GL-21 Grenade Launcher",["stratagem","Engineering Bay","blue","support weapon"],1
-"LAS-98 Laser Cannon",["stratagem","Engineering Bay","blue","support weapon"],1
-"MD-14 Incendiary Mines",["stratagem","Engineering Bay","green","mines"],1
-"AX/LAS-5 'Guard Dog' Rover",["stratagem","Engineering Bay","blue","backpack","back","guard dog"],1
-"SH-20 Ballistic Shield Backpack",["stratagem","Engineering Bay","blue","backpack","back"],1
-"ARC-3 Arc Thrower",["stratagem","Engineering Bay","blue","support weapon"],1
-"MD-17 Anti-Tank Mines",["stratagem","Engineering Bay","green","mines"],1
-"LAS-99 Quasar Cannon",["stratagem","Engineering Bay","blue","support weapon"],1
-"SH-32 Shield Generator Pack",["stratagem","Engineering Bay","blue","backpack","back"],1
-"MD-8 Gas Mines",["stratagem","Engineering Bay","green","mines"],1
+"A/MG-43 Machine Gun Sentry","['stratagem','Robotics Workshop','green','sentry']",1
+"A/G-16 Gatling Sentry","['stratagem','Robotics Workshop','green','sentry']",1
+"A/M-12 Mortar Sentry","['stratagem','Robotics Workshop','green','sentry']",1
+"AX/AR-23 'Guard Dog'","['stratagem','Robotics Workshop','blue','backpack','back','guard dog']",1
+"A/AC-8 Autocannon Sentry","['stratagem','Robotics Workshop','green','sentry']",1
+"A/MLS-4X Rocket Sentry","['stratagem','Robotics Workshop','green','sentry']",1
+"A/M-23 EMS Mortar Sentry","['stratagem','Robotics Workshop','green','sentry']",1
+"EXO-45 Patriot","['stratagem','Robotics Workshop','blue','vehicle']",1
+"EXO-49 Emancipator Exosuit","['stratagem','Robotics Workshop','blue','vehicle']",1
 
-"A/MG-43 Machine Gun Sentry",["stratagem","Robotics Workshop","green","sentry"],1
-"A/G-16 Gatling Sentry",["stratagem","Robotics Workshop","green","sentry"],1
-"A/M-12 Mortar Sentry",["stratagem","Robotics Workshop","green","sentry"],1
-"AX/AR-23 'Guard Dog'",["stratagem","Robotics Workshop","blue","backpack","back","guard dog"],1
-"A/AC-8 Autocannon Sentry",["stratagem","Robotics Workshop","green","sentry"],1
-"A/MLS-4X Rocket Sentry",["stratagem","Robotics Workshop","green","sentry"],1
-"A/M-23 EMS Mortar Sentry",["stratagem","Robotics Workshop","green","sentry"],1
-"EXO-45 Patriot",["stratagem","Robotics Workshop","blue","vehicle"],1
-"EXO-49 Emancipator Exosuit",["stratagem","Robotics Workshop","blue","vehicle"],1
+"TX-41 Sterilizer","['stratagem','Chemical Agents','warbond','blue','support weapon']",1
+"AX/TX-13 'Guard Dog' Dog Breath","['stratagem','Chemical Agents','warbond','blue','backpack','back','guard dog']",1
 
-"TX-41 Sterilizer",["stratagem","Chemical Agents","warbond","blue","support weapon"],1
-"AX/TX-13 'Guard Dog' Dog Breath",["stratagem","Chemical Agents","warbond","blue","backpack","back","guard dog"],1
+"SH-51 Directional Shield","['stratagem','Urban Legends','warbond','blue','backpack','back']",1
+"E/AT-12 Anti-Tank Emplacement","['stratagem','Urban Legends','warbond','green','emplacement']",1
+"A/FLAM-40 Flame Sentry","['stratagem','Urban Legends','warbond','green','sentry']",1
 
-"SH-51 Directional Shield",["stratagem","Urban Legends","warbond","blue","backpack","back"],1
-"E/AT-12 Anti-Tank Emplacement",["stratagem","Urban Legends","warbond","green","emplacement"],1
-"A/FLAM-40 Flame Sentry",["stratagem","Urban Legends","warbond","green","sentry"],1
+"B-100 Portable Hellbomb","['stratagem','Servants of Freedom','warbond','blue','backpack','back']",1
 
-"B-100 Portable Hellbomb",["stratagem","Servants of Freedom","warbond","blue","backpack","back"],1
+"LIFT-860 Hover Pack","['stratagem','Borderline Justice','warbond','blue','backpack','back']",1
 
-"LIFT-860 Hover Pack",["stratagem","Borderline Justice","warbond","blue","backpack","back"],1
+"CQC-1 One True Flag","['stratagem','Masters of Ceremony','warbond','blue','support weapon']",1
 
-"CQC-1 One True Flag",["stratagem","Masters of Ceremony","warbond","blue","support weapon"],1
+"GL-52 De-Escalator","['stratagem','Force of Law','warbond','blue','support weapon']",1
+"AX/ARC-3 'Guard Dog' K-9","['stratagem','Force of Law','warbond','blue','backpack','back','guard dog']",1
 
-"GL-52 De-Escalator",["stratagem","Force of Law","warbond","blue","support weapon"],1
-"AX/ARC-3 'Guard Dog' K-9",["stratagem","Force of Law","warbond","blue","backpack","back","guard dog"],1
+"PLAS-45 Epoch","['stratagem','Control Group','warbond','blue','support weapon']",1
+"A/LAS-98 Laser Sentry","['stratagem','Control Group','warbond','green','sentry']",1
+"LIFT-182 Warp Pack","['stratagem','Control Group','warbond','blue','backpack','back']",1
 
-"PLAS-45 Epoch",["stratagem","Control Group","warbond","blue","support weapon"],1
-"A/LAS-98 Laser Sentry",["stratagem","Control Group","warbond","green","sentry"],1
-"LIFT-182 Warp Pack",["stratagem","Control Group","warbond","blue","backpack","back"],1
+"S-11 Speargun","['stratagem','Dust Devils','warbond','blue','support weapon']",1
+"EAT-700 Expendable Napalm","['stratagem','Dust Devils','warbond','blue','support weapon']",1
+"MS-11 Solo Silo","['stratagem','Dust Devils','warbond','blue','support weapon']",1
 
-"S-11 Speargun",["stratagem","Dust Devils","warbond","blue","support weapon"],1
-"EAT-700 Expendable Napalm",["stratagem","Dust Devils","warbond","blue","support weapon"],1
-"MS-11 Solo Silo",["stratagem","Dust Devils","warbond","blue","support weapon"],1
+"M-1000 Maxigun","['stratagem','Python Commandos','warbond','blue','support weapon','back']",1
+"CQC-9 Defoliation Tool","['stratagem','Python Commandos','warbond','blue','support weapon']",1
+"AX/FLAM-75 'Guard Dog' Hot Dog","['stratagem','Python Commandos','warbond','blue','backpack','back','guard dog']",1
 
-"M-1000 Maxigun",["stratagem","Python Commandos","warbond","blue","support weapon","back"],1
-"CQC-9 Defoliation Tool",["stratagem","Python Commandos","warbond","blue","support weapon"],1
-"AX/FLAM-75 'Guard Dog' Hot Dog",["stratagem","Python Commandos","warbond","blue","backpack","back","guard dog"],1
-
-"B/MD C4 Pack",["stratagem","Redacted Regiment","warbond","blue","support weapon","back"],1
-
-
-"SC-37 Legionnaire",["armor","Superstore","light","servo-assisted"],1
-"SC-34 Infiltrator",["armor","Helldivers Mobilize","light","scout"],1
-"SC-30 Trailblazer Scout",["armor","Helldivers Mobilize","light","scout"],1
-"CE-74 Breaker",["armor","Superstore","light","engineering kit"],1
-"FS-38 Eradicator",["armor","Superstore","light","fortified"],1
-"B-08 Light Gunner",["armor","Superstore","light","extra padding"],1
-"CM-21 Trench Paramedic",["armor","Superstore","light","med-kit"],1
-"EX-00 Prototype X",["armor","Cutting Edge","light","electrical conduit"],1
-"CE-07 Demolition Specialist",["armor","Democratic Detonation","light","engineering kit"],1
-"FS-37 Ravager",["armor","Superstore","light","engineering kit"],1
-"CW-4 Arctic Ranger",["armor","Polar Patriots","light","scout"],1
-"PH-9 Predator",["armor","Viper Commandos","light","peak physique"],1
-"I-09 Heatseeker",["armor","Freedom's Flame","light","inflammable"],1
-"AF-50 Noxious Ranger",["armor","Chemical Agents","light","advanced filtration"],1
-"UF-16 Inspector",["armor","Truth Enforcers","light","unflinching"],1
-"SR-24 Street Scout",["armor","Urban Legends","light","siege-ready"],1
-"AC-2 Obedient",["armor","Righteous Revenants","Killzone Collab Free","light","acclimated"],1
-"IE-57 Hell-Bent",["armor","Superstore","light","integrated explosives"],1
-"GS-11 Democracy's Deputy",["armor","Superstore","light","gunslinger"],1
-"RE-1861 Parade Commander",["armor","Masters of Ceremony","light","reinforced epaulettes"],1
-"BP-32 Jackboot",["armor","Force of Law","light","ballistic padding"],1
-"AD-11 Livewire",["armor","Superstore","light","adreno-defibrillator"],1
-"DS-10 Big Game Hunter",["armor","Superstore","light","desert stormer"],1
-"RS-20 Constrictor",["armor","Superstore","light","rock solid"],1
-"RS-100 Sanctioner",["armor","Superstore","light","reduced signature"],1
-"RS-89 Shadow Paragon",["armor","Redacted Regiment","light","reduced signature"],1
-
-"B-01 Tactical",["armor","Starter Equipment","medium","extra padding"],1
-"B-01 Tactical",["armor","Starter Equipment","medium","extra padding"],1
-"B-01 Tactical",["armor","Starter Equipment","medium","extra padding"],1
-"B-01 Tactical",["armor","Starter Equipment","medium","extra padding"],1
-"TR-7 Ambassador of the Brand",["armor","Pre-Order","medium","extra padding"],1
-"TR-9 Cavalier of Democracy",["armor","Pre-Order","medium","democracy protects"],1
-"DP-53 Savior of the Free",["armor","Super Citizen Edition","medium","democracy protects"],1
-"TR-117 Alpha Commander",["armor","Starter Equipment","medium","med-kit"],1
-"SC-15 Drone Master",["armor","Superstore","medium","engineering kit"],1
-"CE-35 Trench Engineer",["armor","Helldivers Mobilize","medium","engineering kit"],1
-"CM-09 Bonesnapper",["armor","Helldivers Mobilize","medium","med-kit"],1
-"DP-40 Hero of the Federation",["armor","Helldivers Mobilize","medium","democracy protects"],1
-"SA-7 Headfirst",["armor","Siege Breakers","medium","supplementary adrenaline"],1
-"SA-04 Combat Technician",["armor","Helldivers Mobilize","medium","scout"],1
-"CM-14 Physician",["armor","Helldivers Mobilize","medium","med-kit"],1
-"DP-11 Champion of the People",["armor","Helldivers Mobilize","medium","democracy protects"],1
-"SA-25 Steel Trooper",["armor","Steeled Veterans","medium","servo-assisted"],1
-"SA-12 Servo Assisted",["armor","Steeled Veterans","medium","servo-assisted"],1
-"B-24 Enforcer",["armor","Superstore","medium","fortified"],1
-"CE-81 Juggernaut",["armor","Superstore","medium","engineering kit"],1
-"FS-34 Exterminator",["armor","Superstore","medium","fortified"],1
-"EX-03 Prototype 3",["armor","Cutting Edge","medium","electrical conduit"],1
-"EX-16 Prototype 16",["armor","Cutting Edge","medium","electrical conduit"],1
-"CE-27 Ground Breaker",["armor","Democratic Detonation","medium","engineering kit"],1
-"CM-10 Clinician",["armor","Superstore","medium","med-kit"],1
-"CW-9 White Wolf",["armor","Superstore","medium","extra padding"],1
-"PH-56 Jaguar",["armor","Superstore","medium","peak physique"],1
-"TR-40 Gold Eagle",["armor","Starting Equipment","medium","extra padding"],1
-"I-92 Fire Fighter",["armor","Superstore","medium","inflammable"],1
-"I-102 Draconaught",["armor","Freedom's Flame","medium","inflammable"],1
-"AF-91 Field Chemist",["armor","Superstore","medium","advanced filtration"],1
-"AF-02 Haz-Master",["armor","Chemical Agents","medium","advanced filtration"],1
-"DP-00 Tactical",["armor","Starting Equipment","medium","democracy protects"],1
-"UF-84 Doubt Killer",["armor","Superstore","medium","unflinching"],1
-"UF-50 Bloodhound",["armor","Truth Enforcers","medium","unflinching"],1
-"AC-1 Dutiful",["armor","Righteous Revenants","medium","acclimated"],1
-"IE-3 Martyr",["armor","Servants of Freedom","medium","integrated explosives"],1
-"IE-12 Righteous",["armor","Servants of Freedom","medium","integrated explosives"],1
-"B-22 Model Citizen",["armor","Starting Equipment","medium","democracy protects"],1
-"GS-17 Frontier Marshal",["armor","Borderline Justice","medium","gunslinger"],1
-"RE-2310 Honorary Guard",["armor","Masters of Ceremony","medium","reinforced epaulettes"],1
-"BP-20 Correct Officer",["armor","Force of Law","medium","ballistic padding"],1
-"AD-26 Bleeding Edge",["armor","Control Group","medium","adreno-defibrillator"],1
-"A-9 Helljumper",["armor","Obedient Democracy Support Troopers","medium","feet first"],1
-"A-35 Recon",["armor","Obedient Democracy Support Troopers","medium","feet first"],1
-"DS-191 Scorpion",["armor","Dust Devils","medium","desert stormer"],1
-"RS-6 Fiend Destroyer",["armor","Superstore","medium","rock solid"],1
-"RS-67 Null Cipher",["armor","Redacted Regiment","medium","reduced signature"],1
-
-"TR-62 Knight",["armor","Pre-Order","heavy","servo-assisted"],1
-"FS-05 Marksman",["armor","Helldivers Mobilize","heavy","fortified"],1
-"SA-08 Ram",["armor","Siege Breakers","heavy","supplementary adrenaline"],1
-"FS-23 Battle Master",["armor","Helldivers Mobilize","heavy","fortified"],1
-"SA-32 Dynamo",["armor","Steeled Veterans","heavy","servo-assisted"],1
-"B-27 Fortified Commando",["armor","Superstore","heavy","extra padding"],1
-"FS-61 Dreadnought",["armor","Superstore","heavy","servo-assisted"],1
-"FS-11 Executioner",["armor","Superstore","heavy","fortified"],1
-"CM-17 Butcher",["armor","Superstore","heavy","med-kit"],1
-"FS-44 Devastator",["armor","Democratic Detonation","heavy","fortified"],1
-"CE-64 Grenadier",["armor","Superstore","heavy","engineering kit"],1
-"CW-36 Winter Warrior",["armor","Polar Patriots","heavy","servo-assisted"],1
-"CW-22 Kodiak",["armor","Polar Patriots","heavy","fortified"],1
-"CE-101 Guerilla Gorilla",["armor","Superstore","heavy","engineering kit"],1
-"PH-202 Twigsnapper",["armor","Viper Commandos","heavy","peak physique"],1
-"I-44 Salamander",["armor","Superstore","heavy","inflammable"],1
-"AF-52 Lockdown",["armor","Superstore","heavy","advanced filtration"],1
-"SR-64 Cinderblock",["armor","Superstore","heavy","siege-ready"],1
-"SR-18 Roadblock",["armor","Urban Legends","heavy","siege-ready"],1
-"GS-66 Lawmaker",["armor","Borderline Justice","heavy","gunslinger"],1
-"RE-824 Bearer of the Standard",["armor","Superstore","heavy","reinforced epaulettes"],1
-"BP-77 Grand Juror",["armor","Superstore","heavy","ballistic padding"],1
-"AD-49 Apollonian",["armor","Control Group","heavy","adreno-defibrillator"],1
-"DS-42 Federation's Blade",["armor","Dust Devils","heavy","desert stormer"],1
-"RS-40 Beast of Prey",["armor","Python Commandos","heavy","rock solid"],1
+"B/MD C4 Pack","['stratagem','Redacted Regiment','warbond','blue','support weapon','back']",1
 
 
-"AR-23 Liberator",["primary","Starting Equipment","assault rifle"],1
-"AR-23P Liberator Penetrator",["primary","Helldivers Mobilize","assault rifle"],1
-"AR-23C Liberator Concussive",["primary","Steeled Veterans","assault rifle"],1
-"StA-52 Assault Rifle",["primary","Righteous Revenants","assault rifle"],1
-"AR-32 Pacifier",["primary","Force of Law","assault rifle"],1
-"AR-2 Coyote",["primary","Dust Devils","assault rifle"],1
-"MA5C Assault Rifle",["primary","Obedient Democracy Support Troopers","assault rifle"],1
-"AR-23A Liberator Carbine",["primary","Viper Commandos","assault rifle"],1
-"AR-61 Tenderizer",["primary","Polar Patriots","assault rifle"],1
-"BR-14 Adjudicator",["primary","Democratic Detonation","assault rifle"],1
-"AR/GL-21 One-Two",["primary","Python Commandos","assault rifle"],1
-"AR-59 Suppressor",["primary","Redacted Regiment","assault rifle"],1
+"SC-37 Legionnaire","['armor','Superstore','light','servo-assisted']",1
+"SC-34 Infiltrator","['armor','Helldivers Mobilize','light','scout']",1
+"SC-30 Trailblazer Scout","['armor','Helldivers Mobilize','light','scout']",1
+"CE-74 Breaker","['armor','Superstore','light','engineering kit']",1
+"FS-38 Eradicator","['armor','Superstore','light','fortified']",1
+"B-08 Light Gunner","['armor','Superstore','light','extra padding']",1
+"CM-21 Trench Paramedic","['armor','Superstore','light','med-kit']",1
+"EX-00 Prototype X","['armor','Cutting Edge','light','electrical conduit']",1
+"CE-07 Demolition Specialist","['armor','Democratic Detonation','light','engineering kit']",1
+"FS-37 Ravager","['armor','Superstore','light','engineering kit']",1
+"CW-4 Arctic Ranger","['armor','Polar Patriots','light','scout']",1
+"PH-9 Predator","['armor','Viper Commandos','light','peak physique']",1
+"I-09 Heatseeker","['armor','Freedom's Flame','light','inflammable']",1
+"AF-50 Noxious Ranger","['armor','Chemical Agents','light','advanced filtration']",1
+"UF-16 Inspector","['armor','Truth Enforcers','light','unflinching']",1
+"SR-24 Street Scout","['armor','Urban Legends','light','siege-ready']",1
+"AC-2 Obedient","['armor','Righteous Revenants','Killzone Collab Free','light','acclimated']",1
+"IE-57 Hell-Bent","['armor','Superstore','light','integrated explosives']",1
+"GS-11 Democracy's Deputy","['armor','Superstore','light','gunslinger']",1
+"RE-1861 Parade Commander","['armor','Masters of Ceremony','light','reinforced epaulettes']",1
+"BP-32 Jackboot","['armor','Force of Law','light','ballistic padding']",1
+"AD-11 Livewire","['armor','Superstore','light','adreno-defibrillator']",1
+"DS-10 Big Game Hunter","['armor','Superstore','light','desert stormer']",1
+"RS-20 Constrictor","['armor','Superstore','light','rock solid']",1
+"RS-100 Sanctioner","['armor','Superstore','light','reduced signature']",1
+"RS-89 Shadow Paragon","['armor','Redacted Regiment','light','reduced signature']",1
 
-"R-2 Amendment",["primary","Masters of Ceremony","marksman rifle"],1
-"R-2124 Constitution",["primary","Starting Equipment","marksman rifle"],1
-"R-6 Deadeye",["primary","Borderline Justice","marksman rifle"],1
-"R-63 Diligence",["primary","Helldivers Mobilize","marksman rifle"],1
-"R-63CS Diligence Counter Sniper",["primary","Helldivers Mobilize","marksman rifle"],1
-"R-72 Censor",["primary","Redacted Regiment","marksman rifle"],1
+"B-01 Tactical","['armor','Starter Equipment','medium','extra padding']",1
+"B-01 Tactical","['armor','Starter Equipment','medium','extra padding']",1
+"B-01 Tactical","['armor','Starter Equipment','medium','extra padding']",1
+"B-01 Tactical","['armor','Starter Equipment','medium','extra padding']",1
+"TR-7 Ambassador of the Brand","['armor','Pre-Order','medium','extra padding']",1
+"TR-9 Cavalier of Democracy","['armor','Pre-Order','medium','democracy protects']",1
+"DP-53 Savior of the Free","['armor','Super Citizen Edition','medium','democracy protects']",1
+"TR-117 Alpha Commander","['armor','Starter Equipment','medium','med-kit']",1
+"SC-15 Drone Master","['armor','Superstore','medium','engineering kit']",1
+"CE-35 Trench Engineer","['armor','Helldivers Mobilize','medium','engineering kit']",1
+"CM-09 Bonesnapper","['armor','Helldivers Mobilize','medium','med-kit']",1
+"DP-40 Hero of the Federation","['armor','Helldivers Mobilize','medium','democracy protects']",1
+"SA-7 Headfirst","['armor','Siege Breakers','medium','supplementary adrenaline']",1
+"SA-04 Combat Technician","['armor','Helldivers Mobilize','medium','scout']",1
+"CM-14 Physician","['armor','Helldivers Mobilize','medium','med-kit']",1
+"DP-11 Champion of the People","['armor','Helldivers Mobilize','medium','democracy protects']",1
+"SA-25 Steel Trooper","['armor','Steeled Veterans','medium','servo-assisted']",1
+"SA-12 Servo Assisted","['armor','Steeled Veterans','medium','servo-assisted']",1
+"B-24 Enforcer","['armor','Superstore','medium','fortified']",1
+"CE-81 Juggernaut","['armor','Superstore','medium','engineering kit']",1
+"FS-34 Exterminator","['armor','Superstore','medium','fortified']",1
+"EX-03 Prototype 3","['armor','Cutting Edge','medium','electrical conduit']",1
+"EX-16 Prototype 16","['armor','Cutting Edge','medium','electrical conduit']",1
+"CE-27 Ground Breaker","['armor','Democratic Detonation','medium','engineering kit']",1
+"CM-10 Clinician","['armor','Superstore','medium','med-kit']",1
+"CW-9 White Wolf","['armor','Superstore','medium','extra padding']",1
+"PH-56 Jaguar","['armor','Superstore','medium','peak physique']",1
+"TR-40 Gold Eagle","['armor','Starting Equipment','medium','extra padding']",1
+"I-92 Fire Fighter","['armor','Superstore','medium','inflammable']",1
+"I-102 Draconaught","['armor','Freedom's Flame','medium','inflammable']",1
+"AF-91 Field Chemist","['armor','Superstore','medium','advanced filtration']",1
+"AF-02 Haz-Master","['armor','Chemical Agents','medium','advanced filtration']",1
+"DP-00 Tactical","['armor','Starting Equipment','medium','democracy protects']",1
+"UF-84 Doubt Killer","['armor','Superstore','medium','unflinching']",1
+"UF-50 Bloodhound","['armor','Truth Enforcers','medium','unflinching']",1
+"AC-1 Dutiful","['armor','Righteous Revenants','medium','acclimated']",1
+"IE-3 Martyr","['armor','Servants of Freedom','medium','integrated explosives']",1
+"IE-12 Righteous","['armor','Servants of Freedom','medium','integrated explosives']",1
+"B-22 Model Citizen","['armor','Starting Equipment','medium','democracy protects']",1
+"GS-17 Frontier Marshal","['armor','Borderline Justice','medium','gunslinger']",1
+"RE-2310 Honorary Guard","['armor','Masters of Ceremony','medium','reinforced epaulettes']",1
+"BP-20 Correct Officer","['armor','Force of Law','medium','ballistic padding']",1
+"AD-26 Bleeding Edge","['armor','Control Group','medium','adreno-defibrillator']",1
+"A-9 Helljumper","['armor','Obedient Democracy Support Troopers','medium','feet first']",1
+"A-35 Recon","['armor','Obedient Democracy Support Troopers','medium','feet first']",1
+"DS-191 Scorpion","['armor','Dust Devils','medium','desert stormer']",1
+"RS-6 Fiend Destroyer","['armor','Superstore','medium','rock solid']",1
+"RS-67 Null Cipher","['armor','Redacted Regiment','medium','reduced signature']",1
 
-"MP-98 Knight",["primary","Super Citizen","submachine gun"],1
-"StA-11 SMG",["primary","Righteous Revenants","Killzone Collab Free","submachine gun"],1
-"M7S SMG",["primary","Obedient Democracy Support Troopers","submachine gun"],1
-"SMG-32 Reprimand",["primary","Truth Enforcers","submachine gun"],1
-"SMG-37 Defender",["primary","Helldivers Mobilize","submachine gun"],1
-"SMG-72 Pummeler",["primary","Polar Patriots","submachine gun"],1
-
-"SG-8 Punisher",["primary","Helldivers Mobilize","shotgun"],1
-"SG-8S Slugger",["primary","Helldivers Mobilize","shotgun"],1
-"SG-20 Halt",["primary","Truth Enforcers","shotgun"],1
-"SG-451 Cookout",["primary","Freedom's Flame","shotgun"],1
-"DBS-2 Double Freedom",["primary","Superstore","shotgun"],1
-"M90A Shotgun",["primary","Obedient Democracy Support Troopers","shotgun"],1
-"SG-225 Breaker",["primary","Helldivers Mobilize","shotgun"],1
-"SG-225SP Breaker Spray&Pray",["primary","Helldivers Mobilize","shotgun"],1
-"SG-225IE Breaker Incendiary",["primary","Steeled Veterans","shotgun"],1
-
-"CB-9 Exploding Crossbow",["primary","Democratic Detonation","explosive"],1
-"R-36 Eruptor",["primary","Democratic Detonation","explosive"],1
-
-"SG-8P Punisher Plasma",["primary","Cutting Edge","energy-based"],1
-"PLAS-39 Accelerator Rifle",["primary","Righteous Revenants","Killzone Collab Free","energy-based"],1
-"ARC-12 Blitzer",["primary","Cutting Edge","energy-based"],1
-"LAS-5 Scythe",["primary","Helldivers Mobilize","energy-based"],1
-"LAS-16 Sickle",["primary","Cutting Edge","energy-based"],1
-"LAS-17 Double-Edge Sickle",["primary","Servants of Freedom","energy-based"],1
-"PLAS-1 Scorcher",["primary","Helldivers Mobilize","energy-based"],1
-"PLAS-101 Purifier",["primary","Polar Patriots","energy-based"],1
-"LAS-16 Trident",["primary","Siege Breakers","energy-based"],1
-
-"VG-70 Variable",["primary","Control Group","special"],1
-"FLAM-66 Torcher",["primary","Freedom's Flame","special"],1
-"JAR-5 Dominator",["primary","Steeled Veterans","special"],1
-
-
-"P-92 Warrant",["secondary","Superstore","pistol"],1
-"P-2 Peacemaker",["secondary","Starting Equipment","pistol"],1
-"P-19 Redeemer",["secondary","Helldivers Mobilize","pistol"],1
-"P-113 Verdict",["secondary","Polar Patriots","pistol"],1
-"M6C/SOCOM Pistol",["secondary","Obedient Democracy Support Troopers","pistol"],1
-"P-4 Senator",["secondary","Steeled Veterans","pistol"],1
-
-"CQC-19 Stun Lance",["secondary","Urban Legends","melee"],1
-"CQC-2 Saber",["secondary","Masters of Ceremony","melee"],1
-"CQC-30 Stun Baton",["secondary","Superstore","melee"],1
-"CQC-5 Combat Hatchet",["secondary","Superstore","melee"],1
-"CQC-42 Machete",["secondary","Superstore","melee"],1
-
-"P-11 Stim Pistol",["secondary","Chemical Agents","special"],1
-"SG-22 Bushwhacker",["secondary","Viper Commandos","special"],1
-"LAS-58 Talon",["secondary","Borderline Justice","special"],1
-"P-72 Crisper",["secondary","Freedom's Flame","special"],1
-"GP-31 Grenade Pistol",["secondary","Democratic Detonation","special"],1
-"LAS-7 Dagger",["secondary","Cutting Edge","special"],1
-"GP-20 Ultimatum",["secondary","Servants of Freedom","special"],1
-"PLAS-15 Loyalist",["secondary","Truth Enforcers","special"],1
-"P-35 Re-Educator",["secondary","Redacted Regiment","special"],1
-
-
-"TED-63 Dynamite",["throwable","Borderline Justice","standard"],1
-"G-6 Frag",["throwable","Helldivers Mobilize","standard"],1
-"G-12 High Explosive",["throwable","Starting Equipment","standard"],1
-"G-10 Incendiary",["throwable","Steeled Veterans","standard"],1
-"G-7 Pineapple",["throwable","Dust Devils","standard"],1
-
-"G-16 Impact",["throwable","Helldivers Mobilize","special"],1
-"G-13 Incendiary Impact",["throwable","Polar Patriots","special"],1
-"G-23 Stun",["throwable","Cutting Edge","special"],1
-"G-4 Gas",["throwable","Chemical Agents","special"],1
-"G-50 Seeker",["throwable","Servants of Freedom","special"],1
-"G-3 Smoke",["throwable","Helldivers Mobilize","special"],1
-"G-123 Thermite",["throwable","Democratic Detonation","special"],1
-"K-2 Throwing Knife",["throwable","Viper Commandos","special"],1
-"G-142 Pyrotech",["throwable","Masters of Ceremony","special"],1
-"G-109 Urchin",["throwable","Force of Law","special"],1
-"G-31 Arc",["throwable","Control Group","special"],1
-"TM-1 Lure Mine",["throwable","Redacted Regiment","special"],1
-"G-89 Smokescreen",["throwable","Redacted Regiment","special"],1
-"G/SH-39 Shield",["throwable","Siege Breakers","special"],1
+"TR-62 Knight","['armor','Pre-Order','heavy','servo-assisted']",1
+"FS-05 Marksman","['armor','Helldivers Mobilize','heavy','fortified']",1
+"SA-08 Ram","['armor','Siege Breakers','heavy','supplementary adrenaline']",1
+"FS-23 Battle Master","['armor','Helldivers Mobilize','heavy','fortified']",1
+"SA-32 Dynamo","['armor','Steeled Veterans','heavy','servo-assisted']",1
+"B-27 Fortified Commando","['armor','Superstore','heavy','extra padding']",1
+"FS-61 Dreadnought","['armor','Superstore','heavy','servo-assisted']",1
+"FS-11 Executioner","['armor','Superstore','heavy','fortified']",1
+"CM-17 Butcher","['armor','Superstore','heavy','med-kit']",1
+"FS-44 Devastator","['armor','Democratic Detonation','heavy','fortified']",1
+"CE-64 Grenadier","['armor','Superstore','heavy','engineering kit']",1
+"CW-36 Winter Warrior","['armor','Polar Patriots','heavy','servo-assisted']",1
+"CW-22 Kodiak","['armor','Polar Patriots','heavy','fortified']",1
+"CE-101 Guerilla Gorilla","['armor','Superstore','heavy','engineering kit']",1
+"PH-202 Twigsnapper","['armor','Viper Commandos','heavy','peak physique']",1
+"I-44 Salamander","['armor','Superstore','heavy','inflammable']",1
+"AF-52 Lockdown","['armor','Superstore','heavy','advanced filtration']",1
+"SR-64 Cinderblock","['armor','Superstore','heavy','siege-ready']",1
+"SR-18 Roadblock","['armor','Urban Legends','heavy','siege-ready']",1
+"GS-66 Lawmaker","['armor','Borderline Justice','heavy','gunslinger']",1
+"RE-824 Bearer of the Standard","['armor','Superstore','heavy','reinforced epaulettes']",1
+"BP-77 Grand Juror","['armor','Superstore','heavy','ballistic padding']",1
+"AD-49 Apollonian","['armor','Control Group','heavy','adreno-defibrillator']",1
+"DS-42 Federation's Blade","['armor','Dust Devils','heavy','desert stormer']",1
+"RS-40 Beast of Prey","['armor','Python Commandos','heavy','rock solid']",1
 
 
-"Hellpod Space Optimization",["booster","Helldivers Mobilize"],1
-"Vitality Enhancement",["booster","Helldivers Mobilize"],1
-"UAV Recon Booster",["booster","Helldivers Mobilize"],1
-"Stamina Enhancement",["booster","Helldivers Mobilize"],1
-"Muscle Enhancement",["booster","Helldivers Mobilize"],1
-"Increased Reinforcement Budget",["booster","Helldivers Mobilize"],1
-"Flexible Reinforcement Budget",["booster","Steeled Veterans"],1
-"Localization Confusion",["booster","Cutting Edge"],1
-"Expert Extraction Pilot",["booster","Democratic Detonation"],1
-"Motivational Shocks",["booster","Polar Patriots"],1
-"Experimental Infusion",["booster","Viper Commandos"],1
-"Firebomb Hellpods",["booster","Freedom's Flame"],1
-"Dead Sprint",["booster","Truth Enforcers"],1
-"Armed Resupply Pods",["booster","Urban Legends"],1
-"Sample Extricator",["booster","Borderline Justice"],1
-"Sample Scanner",["booster","Masters of Ceremony"],1
-"Stun Pods",["booster","Force of Law"],1
-"Concealed Insertion",["booster","Redacted Regiment"],1
+"AR-23 Liberator","['primary','Starting Equipment','assault rifle']",1
+"AR-23P Liberator Penetrator","['primary','Helldivers Mobilize','assault rifle']",1
+"AR-23C Liberator Concussive","['primary','Steeled Veterans','assault rifle']",1
+"StA-52 Assault Rifle","['primary','Righteous Revenants','assault rifle']",1
+"AR-32 Pacifier","['primary','Force of Law','assault rifle']",1
+"AR-2 Coyote","['primary','Dust Devils','assault rifle']",1
+"MA5C Assault Rifle","['primary','Obedient Democracy Support Troopers','assault rifle']",1
+"AR-23A Liberator Carbine","['primary','Viper Commandos','assault rifle']",1
+"AR-61 Tenderizer","['primary','Polar Patriots','assault rifle']",1
+"BR-14 Adjudicator","['primary','Democratic Detonation','assault rifle']",1
+"AR/GL-21 One-Two","['primary','Python Commandos','assault rifle']",1
+"AR-59 Suppressor","['primary','Redacted Regiment','assault rifle']",1
+
+"R-2 Amendment","['primary','Masters of Ceremony','marksman rifle']",1
+"R-2124 Constitution","['primary','Starting Equipment','marksman rifle']",1
+"R-6 Deadeye","['primary','Borderline Justice','marksman rifle']",1
+"R-63 Diligence","['primary','Helldivers Mobilize','marksman rifle']",1
+"R-63CS Diligence Counter Sniper","['primary','Helldivers Mobilize','marksman rifle']",1
+"R-72 Censor","['primary','Redacted Regiment','marksman rifle']",1
+
+"MP-98 Knight","['primary','Super Citizen','submachine gun']",1
+"StA-11 SMG","['primary','Righteous Revenants','Killzone Collab Free','submachine gun']",1
+"M7S SMG","['primary','Obedient Democracy Support Troopers','submachine gun']",1
+"SMG-32 Reprimand","['primary','Truth Enforcers','submachine gun']",1
+"SMG-37 Defender","['primary','Helldivers Mobilize','submachine gun']",1
+"SMG-72 Pummeler","['primary','Polar Patriots','submachine gun']",1
+
+"SG-8 Punisher","['primary','Helldivers Mobilize','shotgun']",1
+"SG-8S Slugger","['primary','Helldivers Mobilize','shotgun']",1
+"SG-20 Halt","['primary','Truth Enforcers','shotgun']",1
+"SG-451 Cookout","['primary','Freedom's Flame','shotgun']",1
+"DBS-2 Double Freedom","['primary','Superstore','shotgun']",1
+"M90A Shotgun","['primary','Obedient Democracy Support Troopers','shotgun']",1
+"SG-225 Breaker","['primary','Helldivers Mobilize','shotgun']",1
+"SG-225SP Breaker Spray&Pray","['primary','Helldivers Mobilize','shotgun']",1
+"SG-225IE Breaker Incendiary","['primary','Steeled Veterans','shotgun']",1
+
+"CB-9 Exploding Crossbow","['primary','Democratic Detonation','explosive']",1
+"R-36 Eruptor","['primary','Democratic Detonation','explosive']",1
+
+"SG-8P Punisher Plasma","['primary','Cutting Edge','energy-based']",1
+"PLAS-39 Accelerator Rifle","['primary','Righteous Revenants','Killzone Collab Free','energy-based']",1
+"ARC-12 Blitzer","['primary','Cutting Edge','energy-based']",1
+"LAS-5 Scythe","['primary','Helldivers Mobilize','energy-based']",1
+"LAS-16 Sickle","['primary','Cutting Edge','energy-based']",1
+"LAS-17 Double-Edge Sickle","['primary','Servants of Freedom','energy-based']",1
+"PLAS-1 Scorcher","['primary','Helldivers Mobilize','energy-based']",1
+"PLAS-101 Purifier","['primary','Polar Patriots','energy-based']",1
+"LAS-16 Trident","['primary','Siege Breakers','energy-based']",1
+
+"VG-70 Variable","['primary','Control Group','special']",1
+"FLAM-66 Torcher","['primary','Freedom's Flame','special']",1
+"JAR-5 Dominator","['primary','Steeled Veterans','special']",1
+
+
+"P-92 Warrant","['secondary','Superstore','pistol']",1
+"P-2 Peacemaker","['secondary','Starting Equipment','pistol']",1
+"P-19 Redeemer","['secondary','Helldivers Mobilize','pistol']",1
+"P-113 Verdict","['secondary','Polar Patriots','pistol']",1
+"M6C/SOCOM Pistol","['secondary','Obedient Democracy Support Troopers','pistol']",1
+"P-4 Senator","['secondary','Steeled Veterans','pistol']",1
+
+"CQC-19 Stun Lance","['secondary','Urban Legends','melee']",1
+"CQC-2 Saber","['secondary','Masters of Ceremony','melee']",1
+"CQC-30 Stun Baton","['secondary','Superstore','melee']",1
+"CQC-5 Combat Hatchet","['secondary','Superstore','melee']",1
+"CQC-42 Machete","['secondary','Superstore','melee']",1
+
+"P-11 Stim Pistol","['secondary','Chemical Agents','special']",1
+"SG-22 Bushwhacker","['secondary','Viper Commandos','special']",1
+"LAS-58 Talon","['secondary','Borderline Justice','special']",1
+"P-72 Crisper","['secondary','Freedom's Flame','special']",1
+"GP-31 Grenade Pistol","['secondary','Democratic Detonation','special']",1
+"LAS-7 Dagger","['secondary','Cutting Edge','special']",1
+"GP-20 Ultimatum","['secondary','Servants of Freedom','special']",1
+"PLAS-15 Loyalist","['secondary','Truth Enforcers','special']",1
+"P-35 Re-Educator","['secondary','Redacted Regiment','special']",1
+
+
+"TED-63 Dynamite","['throwable','Borderline Justice','standard']",1
+"G-6 Frag","['throwable','Helldivers Mobilize','standard']",1
+"G-12 High Explosive","['throwable','Starting Equipment','standard']",1
+"G-10 Incendiary","['throwable','Steeled Veterans','standard']",1
+"G-7 Pineapple","['throwable','Dust Devils','standard']",1
+
+"G-16 Impact","['throwable','Helldivers Mobilize','special']",1
+"G-13 Incendiary Impact","['throwable','Polar Patriots','special']",1
+"G-23 Stun","['throwable','Cutting Edge','special']",1
+"G-4 Gas","['throwable','Chemical Agents','special']",1
+"G-50 Seeker","['throwable','Servants of Freedom','special']",1
+"G-3 Smoke","['throwable','Helldivers Mobilize','special']",1
+"G-123 Thermite","['throwable','Democratic Detonation','special']",1
+"K-2 Throwing Knife","['throwable','Viper Commandos','special']",1
+"G-142 Pyrotech","['throwable','Masters of Ceremony','special']",1
+"G-109 Urchin","['throwable','Force of Law','special']",1
+"G-31 Arc","['throwable','Control Group','special']",1
+"TM-1 Lure Mine","['throwable','Redacted Regiment','special']",1
+"G-89 Smokescreen","['throwable','Redacted Regiment','special']",1
+"G/SH-39 Shield","['throwable','Siege Breakers','special']",1
+
+
+"Hellpod Space Optimization","['booster','Helldivers Mobilize']",1
+"Vitality Enhancement","['booster','Helldivers Mobilize']",1
+"UAV Recon Booster","['booster','Helldivers Mobilize']",1
+"Stamina Enhancement","['booster','Helldivers Mobilize']",1
+"Muscle Enhancement","['booster','Helldivers Mobilize']",1
+"Increased Reinforcement Budget","['booster','Helldivers Mobilize']",1
+"Flexible Reinforcement Budget","['booster','Steeled Veterans']",1
+"Localization Confusion","['booster','Cutting Edge']",1
+"Expert Extraction Pilot","['booster','Democratic Detonation']",1
+"Motivational Shocks","['booster','Polar Patriots']",1
+"Experimental Infusion","['booster','Viper Commandos']",1
+"Firebomb Hellpods","['booster','Freedom's Flame']",1
+"Dead Sprint","['booster','Truth Enforcers']",1
+"Armed Resupply Pods","['booster','Urban Legends']",1
+"Sample Extricator","['booster','Borderline Justice']",1
+"Sample Scanner","['booster','Masters of Ceremony']",1
+"Stun Pods","['booster','Force of Law']",1
+"Concealed Insertion","['booster','Redacted Regiment']",1
