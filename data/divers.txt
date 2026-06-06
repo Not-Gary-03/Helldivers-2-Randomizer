@@ -1,3 +1,16 @@
 name,tags,weight
 
-"Allmight","['Steeled Veterans','Cutting Edge','Democratic Detonation','Polar Patriots','Viper Commandos','Freedoms Flame','Chemical Agents','Truth Enforcers','Urban Legends','Servants of Freedom','Borderline Justice','Masters of Ceremony','Dust Devils','Obedient Democracy Support Troopers','Control Group','Force of Law','Python Commandos']",1
+"Hayden","['Steeled Veterans','Cutting Edge','Democratic Detonation','Polar Patriots','Viper Commandos','Freedoms Flame','Urban Legends','Servants of Freedom','Borderline Justice','Control Group']",1
+"Robert","['Steeled Veterans','Cutting Edge','Democratic Detonation','Urban Legends','Servants of Freedom','Freedoms Flame']",1
+"Jamison","['Cutting Edge','Democratic Detonation','Servants of Freedom','Control Group']",1
+"Caleb","['Democratic Detonation','Chemical Agents']",1
+"Tiernan","['Polar Patriots','Urban Legends','Steeled Veterans']",1
+"Josh","['Democratic Detonation','Obedient Democracy Support Troopers']",1
+"Wilson","['Cutting Edge','Democratic Detonation','Super Citizen Edition']",1
+"Jaycen","['Steeled Veterans','Polar Patriots','Democratic Detonation','Cutting Edge']",1
+"Haddon","['Democratic Detonation','Cutting Edge','Steeled Veterans','Chemical Agents','Borderline Justice','Urban Legends']",1
+"Kolby","[]",1
+"Weston","['Urban Legends','Democratic Detonation','Steeled Veterans']",1
+"James","[]",1
+"Collin","[]",1
+"Aidan","[]",1

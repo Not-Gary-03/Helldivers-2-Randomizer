@@ -254,23 +254,6 @@ def priority_list_weights(col: Collection) -> str:
     assigning items of a given tag the corresponding weight from the weight list.
     col: Collection object containing items to modify
     SIDE EFFECT: modifies weights of items in col, sets all item weights to base_weight before other modifications
-    
-    PSEUDOCODE:
-
-    prompt user for list of tags, should include option to choose common categories
-        Common categories include: base stratagem categories plus warbonds, rgb stratagems
-    
-    prompt user for list of integer weights, separated by spaces
-    if list length is less than number of tags, append base_weight until lengths match
-
-    prompt user for new base weight
-    set weight of every item in col to new base weight
-
-    for each tag in tag list:
-        randomly select weight from weight list and remove it from the list
-        aggregate collection for items with this tag
-        assign each item from the base collection that is in the aggregated collection the new weight
-
     """
     print("Tag selection options:\n[1: base stratagem categories]\n[2: rgb stratagems]")
     tag_option = input("[3: warbond titles]\n[4: custom tags]\nInput selection: ").strip()
@@ -371,9 +354,9 @@ all_secondaries = create_col_list_or("Secondaries",secondary_col,ACQUISITIONS)
 all_throwables = create_col_list_or("Throwables",throwable_col,ACQUISITIONS)
 all_boosters = create_col_list_or("Boosters",booster_col,ACQUISITIONS)
 
-base_stratagem_names = ["Patriotic Administration Center","Hangar","Bridge",\
-                        "Robotics Workshop","Engineering Bay","Orbital Cannons"]
-base_content_unlocked = ["starting equipment","Helldivers Mobilize","killzone cross over"]
+# base_stratagem_names = ["Patriotic Administration Center","Hangar","Bridge",\
+#                        "Robotics Workshop","Engineering Bay","Orbital Cannons"]
+# base_content_unlocked = ["starting equipment","Helldivers Mobilize","killzone cross over"]
 
 # Use flat collections for randomization
 content = [stratagem_col, armor_col, primary_col, secondary_col, throwable_col, booster_col]
