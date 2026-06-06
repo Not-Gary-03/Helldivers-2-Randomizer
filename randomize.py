@@ -84,6 +84,10 @@ potential example of menu:
 
 ////2026-01-03 TODO////
 - update priority weight options; better way of aggregating for stratagems/etc.
+
+////2026-06-06 TODO////
+- add new warbond content
+- consider method for quickly adding new warbonds through program?
 """
 
 import random
@@ -141,23 +145,22 @@ def read_divers_from_csv(filename, base_stratagem_names=None, base_content_unloc
     with open(filename, mode='r') as file:
         reader = csv.DictReader(file)
         for row in reader:
-            name = row.get('name','').strip()
-            if not name or name.lower() == 'example':
-                continue
-            tags_raw = row.get('tags','')
-            tags = [t.strip() for t in tags_raw.split(',') if t.strip()]
-            # append base tags if provided
-            base_tags = []
-            if base_stratagem_names:
-                base_tags.extend(base_stratagem_names)
-            if base_content_unlocked:
-                base_tags.extend(base_content_unlocked)
-            tags = [*base_tags, *tags]
+            name = row['name']
+            tags_field = row['tags']
+            # Remove surrounding quotes if present
+            if tags_field.startswith('"') and tags_field.endswith('"'):
+                tags_field = tags_field[1:-1]
             try:
-                weight = int(row.get('weight','1')) if row.get('weight') else 1
-            except ValueError:
-                weight = 1
-            divers.append(Item(name, tags, weight))
+                tags = ast.literal_eval(tags_field)
+                if not isinstance(tags, list):
+                    tags = []
+            except Exception:
+                tags = []
+            if base_stratagem_names:
+                tags.extend(base_stratagem_names)
+            if base_content_unlocked:
+                tags.extend(base_content_unlocked)
+            divers.append(Item(name, tags))
     return divers
 
 def rand_weights(base_col: Collection,l_range: int,u_range: int) -> str:
@@ -216,6 +219,7 @@ def rand_equipment(base_col: Collection, player_tag_item: Item, destructive=Fals
 
     if DEBUG:
         print(viables)
+
 
     if not viables.items:
         raise ValueError(f"No viable items found for diver '{player_tag_item.name}' with tags {player_tag_item.tags} in collection '{base_col.name}'")

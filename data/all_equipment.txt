@@ -96,6 +96,13 @@ name,tags,weight
 
 "B/MD C4 Pack","['stratagem','Redacted Regiment','warbond','blue','support weapon','back']",1
 
+"A/GM-17 Gas Mortar Sentry","['stratagem','Entrenched Division','warbond','green','sentry']",1
+"B/FLAM-80 Cremator","['stratagem','Entrenched Division','warbond','blue','support weapon']",1
+
+"MGX-42 Bullet Storm","['stratagem','Exo Experts','warbond','blue','support weapon']",1
+"EXO-51 Lumberer Exosuit","['stratagem','Exo Experts','warbond','blue','vehicle']",1
+"EXO-55 Breakthrough Exosuit","['stratagem','Exo Experts','warbond','blue','vehicle']",1
+
 
 "SC-37 Legionnaire","['armor','Superstore','light','servo-assisted']",1
 "SC-34 Infiltrator","['armor','Helldivers Mobilize','light','scout']",1
@@ -123,6 +130,8 @@ name,tags,weight
 "RS-20 Constrictor","['armor','Superstore','light','rock solid']",1
 "RS-100 Sanctioner","['armor','Superstore','light','reduced signature']",1
 "RS-89 Shadow Paragon","['armor','Redacted Regiment','light','reduced signature']",1
+"CPH-26 Commandant","['armor','Entrenched Division','light','concussive padding hazmat']",1
+"O-3 Free Spirit","['armor','Exo Experts','light','oxygenator']",1
 
 "B-01 Tactical","['armor','Starter Equipment','medium','extra padding']",1
 "B-01 Tactical","['armor','Starter Equipment','medium','extra padding']",1
@@ -172,6 +181,9 @@ name,tags,weight
 "DS-191 Scorpion","['armor','Dust Devils','medium','desert stormer']",1
 "RS-6 Fiend Destroyer","['armor','Superstore','medium','rock solid']",1
 "RS-67 Null Cipher","['armor','Redacted Regiment','medium','reduced signature']",1
+"CPG-48 Sapper","['armor','Entrenched Division','medium','concussive padding grenadier']",1
+"O-44 Bonded Pilot","['armor','Superstore','medium','oxygenator']",1
+"DP-8 Mountain-Scaled","['armor','Superstore','medium','siege-ready']",1
 
 "TR-62 Knight","['armor','Pre-Order','heavy','servo-assisted']",1
 "FS-05 Marksman","['armor','Helldivers Mobilize','heavy','fortified']",1
@@ -198,6 +210,8 @@ name,tags,weight
 "AD-49 Apollonian","['armor','Control Group','heavy','adreno-defibrillator']",1
 "DS-42 Federation's Blade","['armor','Dust Devils','heavy','desert stormer']",1
 "RS-40 Beast of Prey","['armor','Python Commandos','heavy','rock solid']",1
+"CPR-80 Bulwark","['armor','Superstore','heavy','concussive padding reinforced']",1
+"O-2 Heavy Operator","['armor','Exo Experts','heavy','oxygenator']",1
 
 
 "AR-23 Liberator","['primary','Starting Equipment','assault rifle']",1
@@ -226,6 +240,8 @@ name,tags,weight
 "SMG-32 Reprimand","['primary','Truth Enforcers','submachine gun']",1
 "SMG-37 Defender","['primary','Helldivers Mobilize','submachine gun']",1
 "SMG-72 Pummeler","['primary','Polar Patriots','submachine gun']",1
+"SMG/FLAM-34 Stoker","['primary','Entrenched Division','submachine gun']",1
+"SMG-203 Gallant","['primary','Exo Experts','submachine gun']",1
 
 "SG-8 Punisher","['primary','Helldivers Mobilize','shotgun']",1
 "SG-8S Slugger","['primary','Helldivers Mobilize','shotgun']",1
@@ -236,6 +252,8 @@ name,tags,weight
 "SG-225 Breaker","['primary','Helldivers Mobilize','shotgun']",1
 "SG-225SP Breaker Spray&Pray","['primary','Helldivers Mobilize','shotgun']",1
 "SG-225IE Breaker Incendiary","['primary','Steeled Veterans','shotgun']",1
+"DBS-2 Double Freedom","['primary','Superstore','shotgun']",1
+"SG-97 Sweeper","['primary','Superstore','shotgun']",1
 
 "CB-9 Exploding Crossbow","['primary','Democratic Detonation','explosive']",1
 "R-36 Eruptor","['primary','Democratic Detonation','explosive']",1
@@ -261,12 +279,15 @@ name,tags,weight
 "P-113 Verdict","['secondary','Polar Patriots','pistol']",1
 "M6C/SOCOM Pistol","['secondary','Obedient Democracy Support Troopers','pistol']",1
 "P-4 Senator","['secondary','Steeled Veterans','pistol']",1
+"P-92 Warrant","['secondary','Superstore','pistol']",1
+"P-69 Veto","['secondary','Entrenched Division','pistol']",1
 
 "CQC-19 Stun Lance","['secondary','Urban Legends','melee']",1
 "CQC-2 Saber","['secondary','Masters of Ceremony','melee']",1
 "CQC-30 Stun Baton","['secondary','Superstore','melee']",1
 "CQC-5 Combat Hatchet","['secondary','Superstore','melee']",1
 "CQC-42 Machete","['secondary','Superstore','melee']",1
+"CQC-73 Entrenchment Tool","['secondary','Entrenched Division','melee']",1
 
 "P-11 Stim Pistol","['secondary','Chemical Agents','special']",1
 "SG-22 Bushwhacker","['secondary','Viper Commandos','special']",1
@@ -277,6 +298,7 @@ name,tags,weight
 "GP-20 Ultimatum","['secondary','Servants of Freedom','special']",1
 "PLAS-15 Loyalist","['secondary','Truth Enforcers','special']",1
 "P-35 Re-Educator","['secondary','Redacted Regiment','special']",1
+"P-33 Missile Pistol","['secondary','Exo Experts','special']",1
 
 
 "TED-63 Dynamite","['throwable','Borderline Justice','standard']",1
@@ -297,8 +319,9 @@ name,tags,weight
 "G-109 Urchin","['throwable','Force of Law','special']",1
 "G-31 Arc","['throwable','Control Group','special']",1
 "TM-1 Lure Mine","['throwable','Redacted Regiment','special']",1
-"G-89 Smokescreen","['throwable','Redacted Regiment','special']",1
+"G-89 Smokescreen","['throwable','Superstore','special']",1
 "G/SH-39 Shield","['throwable','Siege Breakers','special']",1
+"G-48 Giga Grenade","['throwable','Entrenched Division','special']",1
 
 
 "Hellpod Space Optimization","['booster','Helldivers Mobilize']",1
